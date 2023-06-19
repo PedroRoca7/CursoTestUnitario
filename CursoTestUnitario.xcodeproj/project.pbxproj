@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		710CEE2DBEB7490D565FE3DA /* Pods_CursoTestUnitarioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CFD469CF4896C15621EE1F /* Pods_CursoTestUnitarioTests.framework */; };
+		90C2DFE67A8B6E41A0A73198 /* Pods_CursoTestUnitario.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD90ED8F7FA58F0D6BE7503 /* Pods_CursoTestUnitario.framework */; };
 		CE21B43C2A267A83002C5066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21B43B2A267A83002C5066 /* AppDelegate.swift */; };
 		CE21B43E2A267A83002C5066 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21B43D2A267A83002C5066 /* SceneDelegate.swift */; };
 		CE21B4402A267A83002C5066 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21B43F2A267A83002C5066 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		CE21B4532A267A88002C5066 /* CursoTestUnitarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21B4522A267A88002C5066 /* CursoTestUnitarioTests.swift */; };
 		CE21B46C2A267C6B002C5066 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21B46B2A267C6B002C5066 /* StringUtils.swift */; };
 		CE21B46E2A267E28002C5066 /* StringUtilsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21B46D2A267E28002C5066 /* StringUtilsSpec.swift */; };
+		CEF093D72A40EE7B0040CA1B /* StringUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF093D62A40EE7B0040CA1B /* StringUtilsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AD90ED8F7FA58F0D6BE7503 /* Pods_CursoTestUnitario.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CursoTestUnitario.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9CF96BC2C4F5F5195C4859 /* Pods-CursoTestUnitario.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoTestUnitario.debug.xcconfig"; path = "Target Support Files/Pods-CursoTestUnitario/Pods-CursoTestUnitario.debug.xcconfig"; sourceTree = "<group>"; };
+		70CFD469CF4896C15621EE1F /* Pods_CursoTestUnitarioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CursoTestUnitarioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8C216911C74FEA4F83089F /* Pods-CursoTestUnitario.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoTestUnitario.release.xcconfig"; path = "Target Support Files/Pods-CursoTestUnitario/Pods-CursoTestUnitario.release.xcconfig"; sourceTree = "<group>"; };
+		B31F829CD511A147F6E83DF9 /* Pods-CursoTestUnitarioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoTestUnitarioTests.debug.xcconfig"; path = "Target Support Files/Pods-CursoTestUnitarioTests/Pods-CursoTestUnitarioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDB0D4E7EA4BA554FDCFD395 /* Pods-CursoTestUnitarioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoTestUnitarioTests.release.xcconfig"; path = "Target Support Files/Pods-CursoTestUnitarioTests/Pods-CursoTestUnitarioTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE21B4382A267A83002C5066 /* CursoTestUnitario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoTestUnitario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE21B43B2A267A83002C5066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE21B43D2A267A83002C5066 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +50,7 @@
 		CE21B4522A267A88002C5066 /* CursoTestUnitarioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoTestUnitarioTests.swift; sourceTree = "<group>"; };
 		CE21B46B2A267C6B002C5066 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		CE21B46D2A267E28002C5066 /* StringUtilsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsSpec.swift; sourceTree = "<group>"; };
+		CEF093D62A40EE7B0040CA1B /* StringUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C2DFE67A8B6E41A0A73198 /* Pods_CursoTestUnitario.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,18 +66,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710CEE2DBEB7490D565FE3DA /* Pods_CursoTestUnitarioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D91F4D9D3EB90AEE45D01C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C9CF96BC2C4F5F5195C4859 /* Pods-CursoTestUnitario.debug.xcconfig */,
+				8B8C216911C74FEA4F83089F /* Pods-CursoTestUnitario.release.xcconfig */,
+				B31F829CD511A147F6E83DF9 /* Pods-CursoTestUnitarioTests.debug.xcconfig */,
+				BDB0D4E7EA4BA554FDCFD395 /* Pods-CursoTestUnitarioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE21B42F2A267A83002C5066 = {
 			isa = PBXGroup;
 			children = (
 				CE21B43A2A267A83002C5066 /* CursoTestUnitario */,
 				CE21B4512A267A88002C5066 /* CursoTestUnitarioTests */,
 				CE21B4392A267A83002C5066 /* Products */,
+				6D91F4D9D3EB90AEE45D01C9 /* Pods */,
+				EBA68C53B9805517913002A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +124,18 @@
 			children = (
 				CE21B4522A267A88002C5066 /* CursoTestUnitarioTests.swift */,
 				CE21B46D2A267E28002C5066 /* StringUtilsSpec.swift */,
+				CEF093D62A40EE7B0040CA1B /* StringUtilsTests.swift */,
 			);
 			path = CursoTestUnitarioTests;
+			sourceTree = "<group>";
+		};
+		EBA68C53B9805517913002A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AD90ED8F7FA58F0D6BE7503 /* Pods_CursoTestUnitario.framework */,
+				70CFD469CF4896C15621EE1F /* Pods_CursoTestUnitarioTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +145,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE21B4622A267A88002C5066 /* Build configuration list for PBXNativeTarget "CursoTestUnitario" */;
 			buildPhases = (
+				D7BBE601215AC1B91052A845 /* [CP] Check Pods Manifest.lock */,
 				CE21B4342A267A83002C5066 /* Sources */,
 				CE21B4352A267A83002C5066 /* Frameworks */,
 				CE21B4362A267A83002C5066 /* Resources */,
@@ -127,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE21B4652A267A88002C5066 /* Build configuration list for PBXNativeTarget "CursoTestUnitarioTests" */;
 			buildPhases = (
+				D1A5F80C368EFAB53BE9F176 /* [CP] Check Pods Manifest.lock */,
 				CE21B44A2A267A88002C5066 /* Sources */,
 				CE21B44B2A267A88002C5066 /* Frameworks */,
 				CE21B44C2A267A88002C5066 /* Resources */,
+				ABF57880D8030E8E82DBC385 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +237,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ABF57880D8030E8E82DBC385 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CursoTestUnitarioTests/Pods-CursoTestUnitarioTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CursoTestUnitarioTests/Pods-CursoTestUnitarioTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CursoTestUnitarioTests/Pods-CursoTestUnitarioTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A5F80C368EFAB53BE9F176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CursoTestUnitarioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7BBE601215AC1B91052A845 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CursoTestUnitario-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE21B4342A267A83002C5066 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -217,6 +319,7 @@
 			files = (
 				CE21B4532A267A88002C5066 /* CursoTestUnitarioTests.swift in Sources */,
 				CE21B46E2A267E28002C5066 /* StringUtilsSpec.swift in Sources */,
+				CEF093D72A40EE7B0040CA1B /* StringUtilsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +469,7 @@
 		};
 		CE21B4632A267A88002C5066 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C9CF96BC2C4F5F5195C4859 /* Pods-CursoTestUnitario.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -395,6 +499,7 @@
 		};
 		CE21B4642A267A88002C5066 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8C216911C74FEA4F83089F /* Pods-CursoTestUnitario.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,6 +529,7 @@
 		};
 		CE21B4662A267A88002C5066 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31F829CD511A147F6E83DF9 /* Pods-CursoTestUnitarioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -444,6 +550,7 @@
 		};
 		CE21B4672A267A88002C5066 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB0D4E7EA4BA554FDCFD395 /* Pods-CursoTestUnitarioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

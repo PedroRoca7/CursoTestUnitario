@@ -1,0 +1,6 @@
+framework module Pods_CursoTestUnitarioTests {
+  umbrella header "Pods-CursoTestUnitarioTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
